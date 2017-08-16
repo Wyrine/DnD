@@ -1,10 +1,10 @@
-#!/usr/bin/env python3
+#!/usr/local/bin python3
 
 import random as rand
 
 def rolldice(diceRoll):
     print("d%d roll: " % (diceRoll), end="")
-    return rand.randrange(1, diceRoll+1)
+    return rand.randint(1, diceRoll)
 
 
 
